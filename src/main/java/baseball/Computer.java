@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Computer {
-    public static final int NUMBER_SIZE = 3;
-    public static final int RANDOM_MIN = 1;
-    public static final int RANDOM_MAX = 9;
+    private static final int NUMBER_SIZE = 3;
+    private static final int RANDOM_MIN = 1;
+    private static final int RANDOM_MAX = 9;
 
     private List<Integer> computerNumber;
 
@@ -20,7 +20,6 @@ public class Computer {
                 computerNumber.add(randomNumber);
             }
         }
-        System.out.println(computerNumber);
     }
 
     public Score getScore(List<Integer> input) {
