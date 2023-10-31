@@ -1,9 +1,9 @@
 package baseball;
 
 public class Score {
-    public static final String NOTHING_MESSAGE = "낫싱";
-    public static final String BALL_MESSAGE = "볼";
-    public static final String STRIKE_MESSAGE = "스트라이크";
+    private static final String NOTHING_MESSAGE = "낫싱";
+    private static final String BALL_MESSAGE = "볼";
+    private static final String STRIKE_MESSAGE = "스트라이크";
 
     private int strike = 0;
     private int ball = 0;
